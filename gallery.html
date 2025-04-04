@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Akilateralization's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h4 class="logo">Akilateralization</h4>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="gallery-page-content">
+             <div class="container">
+                <h2>Portfolio Gallery</h2>
+                <p class="section-subtitle">Here you go!</p>
+                <div class="gallery-grid">
+                    <a href="graphic-design-gallery.html" class="artwork-link">
+                        <div class="artwork">
+                            <img src="cover (2).png" alt="Graphic Design Category">
+                            <p>Graphic Design</p>
+                        </div>
+                    </a>
+                    <a href="illustration-gallery.html" class="artwork-link">
+                         <div class="artwork">
+                             <img src="cover (1).png" alt="Illustration Category">
+                            <p>Illustration</p>
+                        </div>
+                    </a>
+                 </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Akilateralization</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
